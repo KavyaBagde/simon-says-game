@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", sans-serif;;
+}
+
+body{
+    text-align: center;
+    background-color: #ffff591c;
+}
+
+header{
+    background-color: #ffff59;
+    width: 100vw;
+    height: 50px;
+    margin-bottom: 5vmin;
+}
+
+.game-container{
+    background-color: #ffff5947;
+    width: 95vw;
+    height: 80vh;
+    margin: auto;
+    border-radius: 1.5vmin;
+    box-shadow: 0px 0px 2vmin #dcdd79;
+
+}
+
+.error{
+    box-shadow: 0px 0px 2vmin #c82a2a;
+}
+
+.game-container h2{
+    margin: 3vmin 0px;
+}
+
+.btn{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 1vmin;
+}
+
+.btn-container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.red{
+    background-color: #ff0000c2;
+}
+
+.green{
+    background-color: #008000c2;
+}
+
+.yellow{
+    background-color: #ffff00c2;
+}
+
+.blue{
+    background-color: #0000ffc2;
+}
+
+.flash{
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+    background-color: white;
+} 
