@@ -16,10 +16,12 @@ let gameBtn = document.querySelector("gameBtn");
 // document.addEventListener()
 
 document.addEventListener("click", function (key) {
+  if (key.code == "Space") {
     if (started == false) {
         started = true;
         levelUp();
     }
+  }
 });
 
 function btnFlash(btn){
