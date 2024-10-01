@@ -11,11 +11,7 @@ let heighScore = 0;
 
 let h2 = document.querySelector("h2");
 
-let gameBtn = document.querySelector("gameBtn");
-
-// document.addEventListener()
-
-document.addEventListener("click", function (key) {
+document.addEventListener("keypress", function (key) {
   if (key.code == "Space") {
     if (started == false) {
         started = true;
