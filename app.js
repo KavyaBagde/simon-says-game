@@ -11,13 +11,15 @@ let heighScore = 0;
 
 let h2 = document.querySelector("h2");
 
-document.addEventListener("keypress", function (key) {
-  if (key.code == "Space") {
+let gameBtn = document.querySelector("gameBtn");
+
+// document.addEventListener()
+
+document.addEventListener("click", function (key) {
     if (started == false) {
         started = true;
         levelUp();
     }
-  }
 });
 
 function btnFlash(btn){
