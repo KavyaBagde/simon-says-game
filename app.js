@@ -12,12 +12,12 @@ let heighScore = 0;
 let h2 = document.querySelector("h2");
 
 document.addEventListener("click", function (key) {
- 
+ if(key.code == "space"){
     if (started == false) {
         started = true;
         levelUp();
     }
-  
+  }
 });
 
 function btnFlash(btn){
