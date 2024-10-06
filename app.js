@@ -11,16 +11,17 @@ let heighScore = 0;
 
 let h2 = document.querySelector("h2");
 
-document.addEventListener("keypress", function (key) {
+document.addEventListener("touchstart", function (key) {
     // console.log(key);
- if(key.code == "Space"){
+//  if(key.code == "Space"){
     if (started == false) {
         started = true;
         levelUp();
     }
   
 }
-});
+//  } 
+);
 
 function btnFlash(btn){
    btn.classList.add("flash");
